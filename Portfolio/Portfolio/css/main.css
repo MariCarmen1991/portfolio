@@ -1,0 +1,143 @@
+
+
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+
+.carousel-caption {
+  position: absolute; 
+  right: 15%;
+  top: 550px; 
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.encabezado{
+
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 100px;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+
+.subtitulo{
+  text-align: center;
+  padding-top: 50px;
+  size: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textdisplay{
+  text-align: center;
+  padding-top: 2px;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+
+}
+
+
+
+
+
+.row{
+
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+
+.form {
+  text-align: center;
+  padding-top: 50px;
+  max-inline-size: 550px;
+  margin: auto;
+}
+
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: .5em;
+  padding-inline-start: .5em;
+}
+
+.form label span {
+  color: #DA1414;
+}
+
+.form input, .form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1rem;
+  padding: .8em;
+  border-radius: .5em;
+  border: 1px solid #858C94;
+}
+.form textarea {
+  margin-block-end: 2em;
+  font-family: inherit;
+}
+
+input::-webkit-input-placeholder {
+  color: #13050588;
+}
+
+
+.contact {
+  margin-block-end: 5em;
+}
+
+
+.btn {
+  border-radius: 90px;
+  letter-spacing: 1.25px;
+  background: initial;
+  block-size: 50px;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  border: 2px solid var(--black);
+  font-weight: bold;
+  padding: 0 1.5em;
+}
+.btn.full {
+  width: 100%;
+}
+
+
+.btn.primary {
+  background: var(--primary);
+}
+
+
+
+
+
+
+
+
+
+
